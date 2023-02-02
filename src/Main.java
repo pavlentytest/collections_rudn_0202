@@ -2,6 +2,17 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        String str = scanner.nextLine(); // "1 2 3 4 5"
+        String[] strs = str.split(" "); // "1" "2".....
+        ArrayList<String> arrL = new ArrayList<>();
+        Collections.addAll(arrL, strs);
+
+
+
         Iterable iterable;
         Collection collection;
         // Collections - класс
